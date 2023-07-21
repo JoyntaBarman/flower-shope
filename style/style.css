@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,27 +8,229 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.btn-primary {
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px 40px;
+}
+
+
+.tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 48px;
+}
+
+.feature-text {
+  margin: 0 420px;
+  text-align: center;
+}
+
 /* Header section style */
 .header {
-  padding: 100px 130px 0px 130px;
-  background: rgba(229, 84, 115, 0.10);
+  padding: 200px 240px 0px 240px;
+  background: rgba(229, 84, 115, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 95px;
 }
 
-.header-content-tittle {
+.header-tittle {
   color: #272727;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.header-content-description {
-  color: rgba(39, 39, 39, 0.60);
+.header-description {
+  color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin: 32px 0px;
+}
 
+/* Bonuse section */
+.bonus-section {
+  margin: 180px 240px;
+  text-align: center;
+}
+
+.bonus-feature-flower {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 128px;
+}
+
+.feature-flower-1 img {
+  padding: 110px 77px 0px 77px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-flower-1 p {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+.feature-flower-2 img {
+  padding: 117px 47px 51px 51px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-flower-2 p {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+.feature-flower-3 img {
+  padding: 67px 75px 0px 75px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-flower-3 p {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+.bonus-optional {
+  padding: 85px 175px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.bonus-optional p {
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px; /* 145.833% */
+}
+
+/* hot deal section style */
+.hot-deal {
+  padding: 100px 400px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  gap: 180px;
+  align-items: center;
+}
+
+.hot-deal-container {
+  text-align: center;
+}
+
+.hot-deal-tittle {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hot-deal-tittle span {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* instagram section style */
+.instagram {
+  margin: 128px 240px;
+}
+
+.instagram-photo {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 128px;
+}
+
+.instagram-subscribe {
+  background-image: url("../Flower\ Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 121px 285px;
+}
+
+.instagram-subscribe input[type="email"] {
+  color: rgba(39, 39, 39, 0.60);
+  padding: 22px 500px 22px 22px;
+  border: none;
+  border-radius: 8px;
+background: #FFF;
+margin-right: 10px;
+}
+
+/* footer section style */
+.footer-text {
+  background: #111010;
+  padding: 180px 240px;
+}
+
+.tittle span {
+  color: #E55473;;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-text small {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  font-weight: 400; 
 }
