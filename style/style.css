@@ -153,6 +153,38 @@ body {
   line-height: 35px; /* 145.833% */
 }
 
+/* Extra section */
+.extra {
+  margin: 180px 240px;
+}
+
+.flower-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.flower {
+  width: 45%;
+}
+
+.flower img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flower p{
+  margin-top: 32px;
+  font-size: 24px;
+  color: #272727;
+  font-weight: 700;
+  text-align: center;
+
+
+
+
+}
+
 /* hot deal section style */
 .hot-deal {
   padding: 100px 400px;
@@ -226,11 +258,11 @@ margin-right: 10px;
 }
 
 .description {
-  color: rgba(255, 255, 255, 0.90);
+
 }
 
 .footer-text small {
   color: rgba(255, 255, 255, 0.40);
   font-size: 16px;
-  font-weight: 400; 
+  font-weight: 400;
 }
