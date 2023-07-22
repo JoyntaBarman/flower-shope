@@ -234,6 +234,7 @@ body {
 .instagram-subscribe {
   background-image: url("../Flower\ Asset/Rectangle 9.png");
   background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
   padding: 121px 285px;
 }
